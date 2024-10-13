@@ -1,0 +1,31 @@
+@page "/delete"
+@using Microsoft.JSInterop
+
+<button type="button" class="btn btn-warning" id="@UserId" @onclick="() => Delete(UserId)">
+	<i class="far fa-trash-alt"></i>
+</button>
+
+@code
+{
+	[Inject]
+	public IJSRuntime JSRuntime { get; set; }
+
+	[Parameter]
+    public int UserId  { get; set; }
+
+	[Parameter]
+	public EventCallback<int> OnDeleted { get; set; }
+
+	[Parameter]
+	public EventCallback<string> OnUserDelete { get; set; }
+
+	private async Task Delete(int id)
+	{
+    	var confirmed = await JSRuntime.InvokeAsync<bool>("confirm", $"Are you sure you want to delete User?");
+    	if(confirmed)
+    	{
+        	await OnDeleted.InvokeAsync(id);
+			await Task.Delay(10000);
+    	}
+	}
+}

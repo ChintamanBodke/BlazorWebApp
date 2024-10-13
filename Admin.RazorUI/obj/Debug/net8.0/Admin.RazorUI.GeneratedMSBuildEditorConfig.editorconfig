@@ -1,0 +1,35 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows,browser
+build_property.RootNamespace = Admin.RazorUI
+build_property.RootNamespace = Admin.RazorUI
+build_property.ProjectDir = D:\Project\BlazorWebApp\Admin.RazorUI\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Project\BlazorWebApp\Admin.RazorUI
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Project/BlazorWebApp/Admin.RazorUI/Components/DeleteComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xEZWxldGVDb21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project/BlazorWebApp/Admin.RazorUI/Pages/ListAdmin.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlzdEFkbWluLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project/BlazorWebApp/Admin.RazorUI/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project/BlazorWebApp/Admin.RazorUI/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-oucvhoajuv
